@@ -17,7 +17,6 @@ Build a basic product catalog application that allows users to:
 **Technology Stack:**
 - PHP with a lightweight framework of your choice
 - Use a SQL database (MySQL or PostgreSQL)
-- Docker containerization (optional but recommended)
 
 **Features to Implement:**
 1. Create an API with the following endpoints:
