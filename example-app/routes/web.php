@@ -6,7 +6,8 @@ use App\Http\Controllers\HomeController;
 use App\Http\Controllers\OrderController;
 use App\Http\Controllers\ProductController;
 use Illuminate\Support\Facades\Route;
-
+// Include admin routes
+require __DIR__.'/admin_routes.php';
 // Home Route
 Route::get('/', [HomeController::class, 'index'])->name('home');
 
